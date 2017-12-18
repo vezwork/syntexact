@@ -1,0 +1,39 @@
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
+
+body,html {
+    font-family: 'fira code';
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#output span {
+    padding: 0 2px;
+}
+
+#output span:hover {
+    background-color: rgba(140, 0, 255, 0.2);
+}
+
+.inputDisplay {
+    border-bottom: 1px dotted black;
+}
+
+.token {
+    background-color: rgba(50, 115, 255, 0.2);
+}
+
+.division {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+}
+
+.division .numerator {
+    border-bottom: 1px solid black;
+}
+
+.blockStatementBody {
+    padding-left: 10px;
+}
